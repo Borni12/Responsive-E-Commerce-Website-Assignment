@@ -1,0 +1,211 @@
+.first-section{
+    background-color: #fffbf0;
+}
+.btn-custom{
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+}
+.bg-custom{
+    background-color: #fffbf0;
+}
+.card-image-section{
+    width: 90%;
+    height: 330px;
+    background-color: #F1F1F1;
+    border-radius: 1em;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-adjust{
+    background: none;
+}
+.card-image{
+    width: 200px;
+}
+.card-description{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card-border{
+    border: 0;
+    border-radius: 1em;
+}
+.second-title{
+    margin: 30px 0;
+    color: orangered;
+}
+.customer-service{
+    margin-top: 10em;
+}
+.testimonial-bg-custom{
+    background-color:#ffd8b8;
+    height: 100%;
+}
+.section-header{
+    position: relative;
+}
+.section-header::after{
+    content: "";
+    height: 4px;
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 90px);
+    background-color: #fca737;
+}
+.container-fluid p{
+    color: orangered;
+}
+.img-area{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid #fff;
+    overflow: hidden;
+    margin-top: 4%;
+}
+.img-area img{
+    width: 100%;
+}
+.text-area{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 40% 5% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+}
+.ratings{
+    margin-top: 7%;
+    color: orange;
+}
+.quote{
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.quote::before{
+    content: '\201c';
+    top: 10px;
+    padding-right: 2%;
+}
+.quote::after{
+    content: '\201d';
+    padding-right: 2%;
+}
+.quote::before, .quote::after{
+    font-size: 28px;
+    color: yellow;
+}
+.profile{
+    position: relative;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+}
+.carousel-indicators{
+    top: auto;
+}
+.carousel-indicators  .custom-btn{
+    background: #000;
+    border-radius: 50%;
+    width: 25px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.carousel-indicators .active{
+    background: orangered;
+}
+.about-us-section{
+    background-color: lightblue;
+}
+.about-us-section .row{
+    padding: 7em 0;
+}
+.about-info p{
+    text-align: justify;
+    text-justify: inter-word;
+    color: dimgray;
+}
+.social-media-icons .fab{
+    font-size: 30px;
+    padding: 1em;
+    color: orangered;
+}
+.contact-section{
+    margin-top: 5em;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('Images/Contact-Us-Section-Banner-Image.jpg');
+    background-size: cover;
+    height: 100%;
+    padding: 5em;
+    width: 100%;
+}
+.contact-details{
+    margin-bottom: 2em;
+}
+.contact-details .fas{
+    font-size: 30px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+.contact-info{
+    font-size: 18px;
+    margin-top: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.contact-form{
+    padding: 40px;
+    border-radius: 1em;
+}
+.contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact-form .input-box input, .contact-form .input-box textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contact-form .input-box span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 15px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box input:valid ~ span,
+.contact-form .input-box textarea:focus ~ span,
+.contact-form .input-box textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 13px;
+    transform: translateY(-20px);
+}
+.contact-form .input-box input[type="submit"]{
+    width: 100px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
